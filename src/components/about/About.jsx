@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import Nate_Grad16 from '../../assets/Nate_Grad16_BW.jpg'
 import { FaAward } from 'react-icons/fa'
-import { VscFolderLibrary } from 'react-icons/vsc'
+
 
 const About = () => {
   return (
@@ -13,7 +13,7 @@ const About = () => {
       <div className='container about__container'>
         <div className='about__me'>
           <div className='about__me-image'>
-            <img src={Nate_Grad16} alt='about Image' />
+            <img src={Nate_Grad16} alt='about' />
           </div>
         </div>
         <div className='about__content'>
@@ -35,28 +35,32 @@ const About = () => {
           <p>
             <h4>Hello my Name is Nathaniel Loken.</h4>
             <br />
-            I am a new graduate from New Mexico State University with a
-            Bachelor's of Science in Computer Science. I'm looking for a career
-            in Software Engineering where I can use my skills to innovate on
-            emerging technologies that help people around the world, as well as
-            a place where I can meet new people, learn, and develop my skills.
+            I am seeking a career in Software Engineering where I can leverage my
+            skills to innovate with emerging technologies that make a positive impact
+            globally. I thrive in environments where I can meet new people, continuously
+            learn, and develop my abilities.
             <br />
             <br />
-            While I was still in school I interned with NASA where I learned a lot
-            of the skills that I use today including test driven development, 
-            continuous integration and deployment, and how to work in an AGILE
-            development evironment. More specifically I personally created the 
-            test suite and continuous integration scripts for the project. While there
-            I also learned about Django and REST API's and helped to create Django views
-            in the backend.
+            During my internship with NASA, I acquired valuable skills such as
+            test-driven development, continuous integration and deployment, and
+            working in an AGILE development environment. I created the test suite
+            and continuous integration scripts for our project, developed an
+            endpoint to validate and upload files to the database, and set up the CI/CD pipeline using GitLab.
             <br />
             <br />
-            My current project includes an application called Stumblr which based on a users
-            location, uses google location services to find and automatically build a bar
-            hopping route which can be shared with others on the app to help people quickly
-            and easily discover new places in their area. This application is written using
-            React JS and using the MERN stack which has taught me a lot about front end
-            development with React, Material UI, and Javascript.
+            Previously, I worked as a Fullstack Engineer at the Mental Health Wellness Center, 
+            where I developed a Learning Management System. This platform helps
+            users learn about topics like mindfulness and depression at their own pace.
+            For this project, I used Python and Django for the backend and Vue.js for the frontend,
+            integrating other technologies like Stripe for payment fulfillment.
+            <br />
+            <br />
+            Currently, I am a Software Team Lead at Raytheon, overseeing the embedded software section.
+            In this role, I lead a team of engineers in developing and maintaining
+            software for various embedded systems, ensuring high performance and reliability.
+            My responsibilities include project management, code review, and mentorship,
+            as well as hands-on development to solve complex technical challenges.
+            This position has honed my leadership skills and deepened my expertise in embedded systems and software engineering.
           </p>
 
           <a href='#contact' className='btn btn-primary'>
