@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build
+        run: CI=false npm run build
 
       - name: Deploy to GitHub Pages
         run: |
@@ -34,4 +34,3 @@ jobs:
 
         env:
           GH_PAGES_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
-          CI: false
