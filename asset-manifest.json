@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.90c7618f.css",
+    "main.js": "/static/js/main.1da9ad81.js",
+    "static/media/Nate_Grad16_BW.jpg": "/static/media/Nate_Grad16_BW.027789fb0cd11142b58b.jpg",
+    "static/media/Nate_Grad_cropped.png": "/static/media/Nate_Grad_cropped.90f8194aad90222c7da1.png",
+    "static/media/LMS.jpg": "/static/media/LMS.32acd64c49c268854c0e.jpg",
+    "static/media/compiler.jpg": "/static/media/compiler.c65c000154c33bb014bf.jpg",
+    "static/media/shell.jpg": "/static/media/shell.bb180b15ce11dca034af.jpg",
+    "static/media/Nathaniel Loken Resume.pdf": "/static/media/Nathaniel Loken Resume.e9106e9cdf576f04c0dc.pdf",
+    "static/media/Stumblr.png": "/static/media/Stumblr.e81c29ebcd2e3e15629c.png",
+    "index.html": "/index.html",
+    "main.90c7618f.css.map": "/static/css/main.90c7618f.css.map",
+    "main.1da9ad81.js.map": "/static/js/main.1da9ad81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90c7618f.css",
+    "static/js/main.1da9ad81.js"
+  ]
+}
