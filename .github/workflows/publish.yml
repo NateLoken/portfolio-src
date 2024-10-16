@@ -28,6 +28,10 @@ jobs:
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
+
+          npm install -g gh-pages
+
           npx gh-pages -d build -t true  # Deploy build directory, passing the GITHUB_TOKEN
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Built-in GitHub token for authentication
